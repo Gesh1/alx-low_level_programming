@@ -1,15 +1,13 @@
-#include <stdio.h>
-#include <main.h>
+#include "main.h"
 
 /**
- * Main - print putchar
- * Return:always 0 (success)
+ * main - print putchar
+ * return: always 0 (success)
  */
 
-int main()
+int main(void)
 {
 	putchar("putchar\n");
-	putchar();
 
 	return (0);
 }
